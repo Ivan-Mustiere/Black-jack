@@ -25,10 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    banque.cpp \
+    interface.cpp \
+    croupier.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    banque.h \
+    interface.h \
+    croupier.h
 
 FORMS += \
         mainwindow.ui
